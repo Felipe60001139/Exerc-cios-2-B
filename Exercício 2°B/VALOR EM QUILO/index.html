@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valor em quilo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <style>
+        .campo-container {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            top: 20px;
+            height: 90px;
+            align-items: center;
+        }
+    </style>
+
+    <div id="centro">
+        <h2 style="text-align: center;">Valores do Quilo</h2>
+        <style>
+            h2{
+                color: #ffffff;
+            }
+        </style>
+        <div class="campo-container">
+            <label for="campo1" style="color: rgb(255, 255, 255);">Valor do quilo:</label>
+            <input type="number" id="div1" step="0.01"><br><br><br>
+        </div>
+
+        <div class="campo-container">
+            <label for="campo2" style="color: rgb(255, 255, 255);">Quantidade de quilos:</label>
+            <input type="number" id="div2" step="0.01"><br><br><br>
+        </div>
+
+        <div class="campo-container">
+            <label for="campo3" style="color: rgb(255, 255, 255);">Valor a ser pago:</label>
+            <input type="number" id="resultado"><br><br><br>
+        </div>
+
+        <div class="campo-container">
+            <button id="btSomatoria">Calcular</button>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
